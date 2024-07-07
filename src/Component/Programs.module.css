@@ -1,0 +1,48 @@
+.programs{
+    margin: 80px auto;
+    display: flex;
+    width: 90%;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.program{
+    flex-basis: 31%;
+    position: relative;
+
+}
+
+.program img{
+    width:100%;
+    border-radius: 10px;
+    display: block;
+}
+.caption{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: auto;
+    top:0;
+    left:0;
+    bottom: 0;
+    right: 0;
+    /* display: none; */
+    border-radius: 10px;
+    background: rgba(0,15,152,0.3);
+    color: white;
+    cursor: pointer;
+    opacity: 0;
+    transition: 0.4s;
+    padding-top: 70%;
+}
+.caption img{
+    width: 60px;
+}
+.program:hover .caption {
+    opacity: 1;
+    background-color: rgba(0,15,152,0,3);;
+    padding-top: 0;
+}

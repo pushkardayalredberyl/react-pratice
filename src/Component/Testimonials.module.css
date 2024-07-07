@@ -1,0 +1,89 @@
+.testimonials{
+    overflow: hidden;
+    align-items: center;
+    position: relative;
+    
+}
+
+.nexticon, .backicon{
+    position: absolute;
+    bottom: 10px;
+    
+}
+.nexticon{
+    width: 40px;
+    border: 1px Solid black;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: #212EA0;
+    right: 20px;
+}
+
+.backicon{
+    width: 40px;
+    border: 1px Solid black;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: #212EA0;
+    left:20px;
+}
+
+.slider{
+    width: 200%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* overflow: hidden; */
+    flex-direction: row;
+    padding: 40px;
+    /* transform: translate(-50%); */
+    
+    
+}
+
+.slider ul{
+    width: 100%;
+    display: inline-block;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+    
+
+}
+
+.slider ul li{
+    list-style: none;
+    border-radius: 10px Solid grey;
+    padding: 40px;
+    /* display: flex; */
+    align-items: center;
+    /* flex-direction: column; */
+    
+}
+
+.profile{
+    width: 60px;
+    border-radius: 50%;
+    align-self: center;
+    
+}
+
+.slider h2{
+    display: inline;
+    align-self: center;
+    font-weight: 650;
+}
+
+.slider h3{
+    display: inline;
+    align-self: center;
+    font-weight: 500;
+}
+
+.slider p{
+    font-size: 16px;
+    font-weight: 300;
+}
+
